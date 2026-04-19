@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E \"\\\\.\\(json|js|ts|yaml|yml|config\\)$\")",
+      "Bash(npm run:*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(__NEW_LINE_c4131b611232a55a__ SRC=\"C:/Users/med26/Downloads/New folder\")",
+      "Bash(DEST=\"C:/Users/med26/Documents/project/portfolio/portfolio-app/public/audio\")",
+      "Bash(__NEW_LINE_c4131b611232a55a__ cp:*)",
+      "Bash(cp \"$SRC/Light_Click_secondary_buttons_icons.mp3\" \"$DEST/click-light.mp3\")",
+      "Bash(cp \"$SRC/Success_Chime_success_submit_complete.mp3\" \"$DEST/success.mp3\")"
+    ]
+  }
+}
