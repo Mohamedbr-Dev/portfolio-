@@ -75,6 +75,20 @@ export const PROJECTS = [
     year: 2025,
     color: "blue",
   },
+  {
+    id: 5,
+    name: "Arabic Sentiment Analysis",
+    subtitle: "Fine-tuned AraBERT with a REST API",
+    desc: "Classifies Arabic tweets and reviews as positive, negative, or neutral — and says when it isn't sure.",
+    problem: "The first version learned from 48 made-up sentences and got only 51% of real tweets right.",
+    solution: "Retrained AraBERT on 17,000 real tweets and reviews with de-duplicated splits, then merged two fine-tuned models to handle reviews while still recognizing most neutral sentences. Served with FastAPI and an Arabic web page.",
+    impact: "On held-out data: 87% accuracy on tweets and 89% on hotel reviews; 83% on restaurant reviews, a domain it never trained on. Weakest on company reviews (60%), neutral reviews, and mixed opinions. Covered by 69 automated tests.",
+    tags: ["AraBERT", "PyTorch", "FastAPI", "NLP"],
+    github: "#",
+    demo: "#",
+    year: 2026,
+    color: "purple",
+  },
 ]
 
 // ─── Skills ───────────────────────────────────────────────────
