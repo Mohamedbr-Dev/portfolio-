@@ -85,7 +85,7 @@ export const PROJECTS = [
     impact: "On held-out data: 87% accuracy on tweets and 89% on hotel reviews; 83% on restaurant reviews, a domain it never trained on. Weakest on company reviews (60%), neutral reviews, and mixed opinions. Covered by 69 automated tests.",
     tags: ["AraBERT", "PyTorch", "FastAPI", "NLP"],
     github: "https://github.com/Mohamedbr-Dev/arabic-sentiment-analysis",
-    demo: "#",
+    demo: "https://medtn12-arabic-sentiment-analysis.static.hf.space",
     year: 2026,
     color: "purple",
   },
